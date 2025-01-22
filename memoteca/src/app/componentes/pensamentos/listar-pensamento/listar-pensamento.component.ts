@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./listar-pensamento.component.scss']
 })
 export class ListarPensamentoComponent implements OnInit {
+  public listaPensamentos = [];
 
   constructor() { }
 
